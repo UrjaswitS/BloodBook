@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="72dp"
+        android:gravity="center_horizontal"
+        android:textSize="42dp"
+        android:text="Profile"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="100dp"
+
+            android:text="Name: "
+          android:paddingStart="15dp"
+            android:textSize="18dp"
+            android:layout_height="54dp" />
+        <EditText
+            android:id="@+id/name_prof"
+            android:layout_width="0dp"
+            android:layout_weight="4"
+            android:textSize="18dp"
+            android:layout_marginEnd="20dp"
+            android:paddingStart="20dp"
+            android:inputType="textMultiLine"
+            android:text="Urjaswit"
+            android:layout_height="54dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="100dp"
+
+            android:text="Email: "
+            android:paddingStart="15dp"
+            android:textSize="18dp"
+            android:layout_height="54dp" />
+        <EditText
+            android:id="@+id/email_prof"
+            android:layout_width="0dp"
+            android:layout_weight="4"
+            android:textSize="18dp"
+            android:layout_marginEnd="20dp"
+            android:paddingStart="20dp"
+            android:inputType="textMultiLine"
+            android:text="uks@gmial.com"
+            android:layout_height="54dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="100dp"
+            android:text="City: "
+            android:paddingStart="15dp"
+
+            android:textSize="18dp"
+            android:layout_height="54dp" />
+        <EditText
+            android:id="@+id/city_prof"
+            android:layout_width="0dp"
+            android:layout_weight="4"
+            android:textSize="18dp"
+            android:layout_marginEnd="20dp"
+            android:paddingStart="20dp"
+            android:inputType="textMultiLine"
+            android:text="Kolkata"
+            android:layout_height="54dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="100dp"
+            android:text="Phone: "
+            android:paddingStart="15dp"
+            android:textSize="18dp"
+            android:layout_height="54dp" />
+        <EditText
+            android:id="@+id/phone_prof"
+            android:layout_width="0dp"
+            android:layout_weight="4"
+            android:textSize="18dp"
+            android:layout_marginEnd="100dp"
+            android:paddingStart="20dp"
+            android:text="7890451616"
+            android:layout_height="54dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="140dp"
+            android:text="Blood Group: "
+            android:paddingStart="15dp"
+            android:textSize="18dp"
+            android:layout_height="54dp" />
+        <EditText
+            android:id="@+id/blood_prof"
+            android:layout_width="80dp"
+            android:textSize="18dp"
+            android:paddingStart="20dp"
+            android:text="B+"
+            android:layout_height="54dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/ok_prof"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:text="Ok"
+            android:layout_marginEnd="20dp"
+            android:layout_marginStart="40dp"
+            android:textSize="18dp"
+            android:layout_height="54dp" />
+        <Button
+            android:id="@+id/cancel_prof"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:textSize="18dp"
+            android:layout_marginEnd="40dp"
+            android:layout_marginStart="20dp"
+            android:text="Cancel"
+            android:layout_height="54dp" />
+    </LinearLayout>
+
+</LinearLayout>

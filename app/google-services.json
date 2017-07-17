@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "835840257679",
+    "firebase_url": "https://bloodbook-e8bc5.firebaseio.com",
+    "project_id": "bloodbook-e8bc5",
+    "storage_bucket": "bloodbook-e8bc5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:835840257679:android:e538c8f21d77d7ac",
+        "android_client_info": {
+          "package_name": "app.com.project.urjaswitk.bloodbook"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "835840257679-o5kt98loshsiljahlvfl8ee9uuftba1g.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "app.com.project.urjaswitk.bloodbook",
+            "certificate_hash": "125c0ee65992f4c3ac3d82149faacb06ea2a7be9"
+          }
+        },
+        {
+          "client_id": "835840257679-2pis3sn3s6q9ra4nvdkgl752jj77er4r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAQ2CwgFiemPfoOXbck3LVZuvAAgBKSn5c"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "835840257679-2pis3sn3s6q9ra4nvdkgl752jj77er4r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

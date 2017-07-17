@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/hand">
+
+    <TextView
+        android:layout_marginTop="25dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome to BLOOD BOOK"
+        android:textSize="25dp"
+        android:textColor="#ffffff"
+        android:paddingLeft="45dp"/>
+    <TextView
+        android:layout_marginTop="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Good to See you"
+        android:textSize="25dp"
+        android:textColor="#ffffff"
+        android:paddingLeft="90dp"/>
+    <EditText
+        android:id="@+id/email_login"
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:background="#ffffff"
+        android:hint="Email Address"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:paddingLeft="25sp"
+        android:textSize="25dp"/>
+    <EditText
+        android:id="@+id/password_login"
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:background="#ffffff"
+        android:hint=" Password"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:paddingLeft="25sp"
+        android:textSize="25dp"/>
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Forgot Password"
+        android:textSize="20dp"
+        android:layout_gravity="right"
+        android:textColor="#BD0505"
+
+        />
+    <Button
+        android:id="@+id/login_email_btn"
+        android:layout_marginTop="95dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#BD0505"
+        android:text="Log in"
+        android:textSize="25dp"
+        android:textColor="#ffffff"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        />
+    <Button
+        android:id="@+id/register_user_btn"
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#BD0505"
+        android:text="register"
+        android:textSize="25dp"
+        android:textColor="#ffffff"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        />
+
+    <com.google.android.gms.common.SignInButton
+        android:id="@+id/google_sign_in_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:paddingTop="30dp"
+        android:layout_gravity="center_horizontal"
+        android:visibility="invisible"
+        tools:visibility="invisible" />
+
+</LinearLayout>

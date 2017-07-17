@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+
+
+    android:background="@drawable/hand">
+
+    <EditText
+        android:id="@+id/email_reg"
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:background="#ffffff"
+        android:hint="Email Address"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:paddingLeft="25sp"
+        android:textSize="25dp"/>
+    <EditText
+        android:id="@+id/name_reg"
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:background="#ffffff"
+        android:hint="Name"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:paddingLeft="25sp"
+        android:textSize="25dp"/>/>
+    <EditText
+        android:id="@+id/city_reg"
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:background="#ffffff"
+        android:hint="Enter your city"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:paddingLeft="25sp"
+        android:textSize="25dp"/>
+    <EditText
+        android:id="@+id/blood_reg"
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:background="#ffffff"
+        android:hint="Enter Blood Group"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:paddingLeft="25sp"
+        android:textSize="25dp"/>
+    <EditText
+        android:id="@+id/password_reg"
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:background="#ffffff"
+        android:hint="Password"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:paddingLeft="25sp"
+        android:textSize="25dp"/>
+    <EditText
+        android:id="@+id/password_reg_confirm"
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:background="#ffffff"
+        android:hint="Confirm Password"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:paddingLeft="25sp"
+        android:textSize="25dp"/>
+    <Button
+        android:id="@+id/register_user"
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_red_light"
+        android:text="register"
+        android:textSize="25dp"
+        android:textColor="#ffffff"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="By Registering I agree to Terms of Use"
+        android:textColor="#000000"
+        android:layout_gravity="center"/>
+
+
+
+
+</LinearLayout>
